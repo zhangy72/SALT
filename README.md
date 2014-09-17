@@ -51,4 +51,4 @@ Yuan Zhang, Yanni Sun, and James Cole, A Sensitive and Accurate protein domain c
 
 License
 ===================
-Copyright (C) 2013 Yuan Zhang, Yanni Sun.
+Copyright (C) 2014 Yuan Zhang, Yanni Sun, and James R. Cole.
