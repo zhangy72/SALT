@@ -1,5 +1,4 @@
-Version
-===================
+# Version
 This software was last updated 9/17/2014. 
 
 Questions, comments, suggestions, etc?
@@ -12,19 +11,19 @@ Send emails to nick.zhangyuan@gmail.com
 4. Python libraries of NetworkX (http://networkx.lanl.gov/) and Biopython (http://biopython.org/wiki/Main_Page) should be installed.
 
 # Installation
-git clone https://github.com/zhangy72/SALT.git
-make
+git clone https://github.com/zhangy72/SALT.git  
+make  
 
 # Run SATL
-To run SALT, use the following command:
-./SALT.sh -m <HMMER3 HMM file> -f <fasta file> [options]
+To run SALT, use the following command:  
+./SALT.sh -m <HMMER3 HMM file> -f <fasta file> [options]  
   Options:
-    -h:  show this message
-    -g:  gamma (position-specific score threshold, in the range of [0,1], default: 0.3)
-    -k:  overlap threshold, default: (average read length) / 2
-    -K:  number of contigs generated, default: the number of sinks
-    -E:  E-value threshold for contigs, default: 1e-6
-    -o:  output file name, default: standard error
+    -h:  show this message 
+    -g:  gamma (position-specific score threshold, in the range of [0,1], default: 0.3)  
+    -k:  overlap threshold, default: (average read length) / 2  
+    -K:  number of contigs generated, default: the number of sinks  
+    -E:  E-value threshold for contigs, default: 1e-6  
+    -o:  output file name, default: standard error  
 
 The hmm file can contain multiple hmm models and should be in HMMER3.0's hmm file format. These files can be downloaded from Pfam ftp. The nucleotide sequence file should in be fasta format.
  
@@ -34,7 +33,7 @@ The output are the reads that are classified into each input family. The family 
 >PF00006  
 read1 
 read3 
-read5 
+read5  
 >PF00009  
 read4  
 read6  
