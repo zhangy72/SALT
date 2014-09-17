@@ -48,7 +48,7 @@ read10
 
 # Referencing SALT
 
-SALT can be referenced as: 
+SALT can be referenced as:   
 Yuan Zhang, Yanni Sun, and James Cole, A Sensitive and Accurate protein domain cLassification Tool (SALT) for short reads, Bioinformatics, 29(17): 2103-2111, 2013 (<a href="http://bioinformatics.oxfordjournals.org/content/29/17/2103.long">link</a>)
 
 #License
