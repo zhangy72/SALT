@@ -31,16 +31,16 @@ The hmm file can contain multiple hmm models and should be in HMMER3.0's hmm fil
 # Output
 The output are the reads that are classified into each input family. The family names are the accessions of the Pfam families in the HMM files. Each family will have one block in the output file, with a header line that begins with a ">" symbol, which is followed by the family name. All the lines after the header line are names of reads that are classified into the family in the header line. If a family does not have any classified read, it will only have a header line. In the following example, PF00006 has 3 reads classified and PF00009 has 5 reads classified:
 
->PF00006
-read1
-read3
-read5
->PF00009
-read4
-read6
-read8
-read9
-read10
+>PF00006  
+read1 
+read3 
+read5 
+>PF00009  
+read4  
+read6  
+read8  
+read9  
+read10  
 
 # Referencing SALT
 
