@@ -1,16 +1,17 @@
 Version
 ===================
-This software was last updated 7/15/2014. Questions, comments, suggestions, etc?
+This software was last updated 9/17/2014. 
+
+Questions, comments, suggestions, etc?
 Send emails to nick.zhangyuan@gmail.com
 
 Installation
 ===================
-1. Untar the source file called "SALT.tar.gz".
-2. g++ compiler is required in your Unix system. To install SALT, run the Makeme file using the following command:
+1. g++ compiler is required in your Unix system. To install SALT, run the Makeme file using the following command:
 make
-3. HMMER (http://hmmer.janelia.org/) should be installed. The bin file hmmsearch should be in the path.
-4. Python version 2.5 or later is needed.
-5. Python libraries of NetworkX (http://networkx.lanl.gov/) and Biopython (http://biopython.org/wiki/Main_Page) should be installed.
+2. HMMER (http://hmmer.janelia.org/) should be installed. The bin file hmmsearch should be in the path.
+3. Python version 2.5 or later is needed.
+4. Python libraries of NetworkX (http://networkx.lanl.gov/) and Biopython (http://biopython.org/wiki/Main_Page) should be installed.
 
 Run SATL
 ===================
