@@ -17,6 +17,7 @@ make
 # Run SATL
 To run SALT, use the following command: 
  
+```
 ./SALT.sh -m <HMMER3 HMM file> -f <fasta file> [options]  
   Options:
     -h:  show this message 
@@ -25,6 +26,7 @@ To run SALT, use the following command:
     -K:  number of contigs generated, default: the number of sinks  
     -E:  E-value threshold for contigs, default: 1e-6  
     -o:  output file name, default: standard error  
+```
 
 The hmm file can contain multiple hmm models and should be in HMMER3.0's hmm file format. These files can be downloaded from Pfam ftp. The nucleotide sequence file should in be fasta format.
  
