@@ -28,7 +28,7 @@ To run SALT, use the following command:
     -o:  output file name, default: standard error  
 ```
 
-The hmm file can contain multiple hmm models and should be in HMMER3.0's hmm file format. These files can be downloaded from Pfam ftp. The nucleotide sequence file should in be fasta format.
+The hmm file can contain multiple hmm models and should be in HMMER3.0's hmm file format. These files can be downloaded from Pfam (http://pfam.xfam.org/). The nucleotide sequence file should in be fasta format.
  
 # Output
 The output are the reads that are classified into each input family. The family names are the accessions of the Pfam families in the HMM files. Each family will have one block in the output file, with a header line that begins with a ">" symbol, which is followed by the family name. All the lines after the header line are names of reads that are classified into the family in the header line. If a family does not have any classified read, it will only have a header line. In the following example, PF00006 has 3 reads classified and PF00009 has 5 reads classified:
