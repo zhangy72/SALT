@@ -1,7 +1,6 @@
 # Version
-This software was last updated 9/17/2014. 
+This software was last updated 9/17/2014. Questions, comments, suggestions, etc?
 
-Questions, comments, suggestions, etc?
 Send emails to nick.zhangyuan@gmail.com
 
 # System requirement
@@ -11,12 +10,13 @@ Send emails to nick.zhangyuan@gmail.com
 4. Python libraries of NetworkX (http://networkx.lanl.gov/) and Biopython (http://biopython.org/wiki/Main_Page) should be installed.
 
 # Installation
+```
 git clone https://github.com/zhangy72/SALT.git  
 make  
+```
 
 # Run SATL
-To run SALT, use the following command: 
- 
+To run SALT, use the following command:   
 ```
 ./SALT.sh -m <HMMER3 HMM file> -f <fasta file> [options]  
   Options:
@@ -32,7 +32,6 @@ The hmm file can contain multiple hmm models and should be in HMMER3.0's hmm fil
  
 # Output
 The output are the reads that are classified into each input family. The family names are the accessions of the Pfam families in the HMM files. Each family will have one block in the output file, with a header line that begins with a ">" symbol, which is followed by the family name. All the lines after the header line are names of reads that are classified into the family in the header line. If a family does not have any classified read, it will only have a header line. In the following example, PF00006 has 3 reads classified and PF00009 has 5 reads classified:
-
 ```
 >PF00006  
 read1 
