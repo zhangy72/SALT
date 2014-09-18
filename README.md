@@ -3,7 +3,7 @@ This software was last updated 9/17/2014. Questions, comments, suggestions, etc?
 
 Send emails to nick.zhangyuan@gmail.com
 
-# System requirement
+# System requirements
 1. g++ compiler is required in your Unix system
 2. HMMER (http://hmmer.janelia.org/) should be installed. The bin file hmmsearch should be in the path.
 3. Python version 2.5 or later is needed.
