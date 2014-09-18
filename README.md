@@ -53,4 +53,6 @@ SALT can be referenced as:
 
 #License
 
-Copyright (C) 2014 Yuan Zhang, Yanni Sun, and James R. Cole.
+Copyright (C) 2014 Yuan Zhang, Yanni Sun, and James R. Cole.  
+
+You may redistribute this software under the terms of GNU GENERAL PUBLIC LICENSE.
